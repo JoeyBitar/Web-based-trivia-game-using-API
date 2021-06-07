@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="header">Trivia Game</h1>
+        &nbsp&nbsp<h4 id="header">Joseph Bitar 101123774</h4>
+    </header>
+    <hr>
+    <div id="dropDownDiv">
+        <h3>Choose a Test!!!!</h3>
+        <div id = "resultDiv">
+            <span id = "result"></span>
+        </div>
+        <select id="dropDown">
+            <option value="1" selected>Test 1</option>
+            <option value="2">Test 2</option>
+            <option value="3">Test 3</option>
+            <option value="4">Test 4</option>
+            <option value="5">Test 5</option>
+            <option value="6">Test 6</option>
+        </select>
+    </div>
+
+    <div>
+        <button type="load" id = "loadB">Load Test</button>
+        <button type="random" id = "random">Random Test</button>
+    </div>
+
+    <div id="questions">
+
+    </div>
+
+    <div id="lastButtons">
+        <button type="clear" id = "clear">Clear Test</button>
+        <button type="check" id="check">Check Test</button>
+    </div>
+    <div id = "popUp">
+        <p>Are you sure you want to clear the test?</p>
+        <button type="yes" id = "yes">Yes</button>
+        <button type="no" id = "no">No</button>
+    </div>
+
+</body>
+<script src="trivia.js"></script>
+</html>

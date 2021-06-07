@@ -1,0 +1,57 @@
+#header{
+    text-align: center;
+    background-color: white;
+    height: 40px;
+    margin: -10px;
+    font-family: 'Playfair Display', serif;
+    color:black;
+    background-image: url("image/confetti.gif");
+}
+
+#resultDiv{
+    text-align: center;
+    font-size:50px;
+    color:white;
+}
+#popUp{
+    font-style: inherit;
+    font-size: 50px;
+    margin: auto;
+    position:relative;
+    z-index:1;
+    display: none;
+    border: 1px solid #888;
+    background-color: darkkhaki;
+    text-align: center;
+    color:black;
+    width:80%;
+    height:500px;
+}
+
+#popUp > button {
+    width: 20%;
+    height: 60%;
+}
+
+#questions{
+    color: white;
+    font-size: 20px;
+}
+
+li:hover {
+    color:yellow;
+}
+
+body{
+    background-image: url("image/dark.png");
+}
+
+#dropDownDiv > h3{
+    color: white;
+}
+#dropDown{
+    width: 74px;
+}
+#random{
+
+}
